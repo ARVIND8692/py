@@ -3,44 +3,18 @@ Created on 06-May-2017
 
 @author: arvindks
 '''
-#dictionaries are like hashmap
-import ClassAndObject
 
-
-phonebook = {}
-phonebook["John"] = 938477566
-phonebook["Jack"] = 938377264
-phonebook["Jill"] = 947662781
-print(phonebook)
+# Import the numpy package as np
+import numpy as np
 
 
 
-
-phonebook2 = {
-    "John" : 938477566,
-    "Jack" : 938377264,
-    "Jill" : 947662781
-}
-print(phonebook2)
+# Create 2 new lists height and weight
+height = [1.87,  1.87, 1.82, 1.91, 1.90, 1.85]
+weight = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
 
 
-for name, number in phonebook.items():
-    print("Phone number of %s is %d" % (name, number))
 
-#can be deleted either by 'del' or iten.pop
-del phonebook["John"]
-print(phonebook)
-
-
-phonebook["John"] = 938477566
-print(phonebook)
-
-phonebook.pop("John")
-print(phonebook)
-
-if "Jack" in phonebook:
-    print("Jake is listed in the phonebook.")
-if "Jill" not in phonebook:
-    print("Jill is not listed in the phonebook.")
-
-print(ClassAndObject.car1.value)
+# Create 2 numpy arrays from height and weight
+# np_height = np.array(height)
+# np_weight = np.array(weight)
