@@ -37,4 +37,72 @@ print(mylist*4)
 name = "John"
 print("Hello, %s!" % name)
 
+
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
+
+
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
+
+print("-----------------------------------------------------")
+
+# change this code
+number = 10
+second_number = 10
+first_array =[]
+second_array = [1,2,3]
+
+if number > 15:
+    print("1")
+else:
+    print("-1")
+
+if first_array:
+    print("2")
+else:
+    print("-2")
+
+if len(second_array) == 2:
+    print("3")
+else:
+    print("-3")
+
+if len(first_array) + len(second_array) == 5:
+    print("4")
+else:
+    print("-4")
+
+if first_array and first_array[0] == 1:
+    print("5")
+else:
+    print("-5")
+if not second_number:
+    print("6")
+else:
+    print("-6")
+
+print("+++++++++++++for loops")
+# Prints out the numbers 0,1,2,3,4
+for x in range(5):
+    print(x)
+
+# Prints out 3,4,5
+for x in range(3, 6):
+    print(x)
+
+# Prints out 3,5,7,    this input here is steps to toggle
+for x in range(3, 8, 2):
+    print(x)
+    
+print("while loopss================")
+# Prints out 0,1,2,3,4
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1  # This is the same as count = count + 1
+
     
