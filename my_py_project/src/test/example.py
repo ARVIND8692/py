@@ -97,12 +97,18 @@ for x in range(3, 6):
 for x in range(3, 8, 2):
     print(x)
     
-print("while loopss================")
+print("while loops================")
 # Prints out 0,1,2,3,4
-
+def my_function(a,b):
+    print("Hello From My Function!",a,b)
+    
 count = 0
 while count < 5:
     print(count)
+    my_function(2,4)
     count += 1  # This is the same as count = count + 1
+    
+    
+
 
     
